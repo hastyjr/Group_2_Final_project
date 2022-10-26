@@ -48,5 +48,8 @@ Two machine learning models will be created to find patterns in Austin crime dat
 - Logistic Regression Model to determine the input variable's probability of belonging to one of two groups
 - Random Forest Model uses decisions trees and their combined output to make a classification or regression decision and can rank the performance of features
 
+We hope to use machine learning models to accurately predict if a crime would be classified as Family Violence or not.
+
+
 ![Machine Learning Model Mockup](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy/Resources/Images/machine_learning_flowchart.png)
 <sub>Machine Learning Model Mockup</sub>
