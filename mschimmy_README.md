@@ -26,18 +26,11 @@ We hope to answer the following questions with our data:
 - What are the most common crimes in Austin by day of the week?
 
 ## ✔️ Machine Learning Model
-Multiple machine learning models will be created to find patterns in Austin crime data and make predictions of future criminal activity. Each model will be instantiated, trained using a percentage of the crime dataset, evaluated for accuracy, recall, and precison and then optimized before model deployment. Some machine learning models considered include the following:
-- Linear Regression Model to predict the relationship between continuous variables
+Two machine learning models will be created to find patterns in Austin crime data and make predictions of future criminal activity. Each model will be instantiated, trained using a percentage of the crime dataset, evaluated for accuracy, recall, and precison and then optimized before model deployment. Some machine learning models considered include the following:
 - Logistic Regression Model to determine the input variable's probability of belonging to one of two groups
-- Support Vector Model to create a hyperplane that groups objects by common features
 - Random Forest Model uses decisions trees and their combined output to make a classification or regression decision and can rank the performance of features
-- Deep Learning Model
 
-We hope to use machine learning models to predict the following:
-- If a crime will be classified as Family Violence or not.
-- If a crime will be cleared by arrest, by exception, or not cleared.
-- The rate of future crime that will be reported by APD and city council districts.
-- The type of future crime that will be reported by APD and city council districts.
+We hope to use machine learning models to accurately predict if a crime would be classified as Family Violence or not.
 
 ![Machine Learning Model Mockup](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy/Resources/Images/machine_learning_flowchart.png)
 <sub>Machine Learning Model Mockup</sub>
