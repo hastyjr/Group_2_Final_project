@@ -33,7 +33,7 @@ We hope to answer the following questions with our data predictions:
 
 ## :heavy_check_mark: Data Source
 
-The data source we chose is the Austin Crime Data from 2017-2022. This data set for this timeframe contains 500,000+ rows of data and 27 columns. This dataset contains a record of incidents where the Austin Police Department responded to calls for police service where a report was written. The data set contains information about the type of crime, the date and time of the crime, the location of the crime, and the address of the crime to name some of the columns.  
+The data source we chose is the Austin Crime Data from 2017-2022. This data set for this timeframe contains 200,000+ rows of data and 27 columns. This dataset contains a record of incidents where the Austin Police Department responded to calls for police service where a report was written. The data set contains information about the type of crime, the date and time of the crime, the location of the crime, and the address of the crime to name some of the columns.  
 
 Initial data source: <https://data.austintexas.gov/Public-Safety/Crime-Reports/fdj4-gpfu>
 
