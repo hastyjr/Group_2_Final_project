@@ -21,7 +21,7 @@ We chose this topic because we are all from Austin and we wanted to learn more a
 
 ### data source: <https://data.austintexas.gov/Public-Safety/Crime-Reports/fdj4-gpfu>
 
-The data source we chose is the Austin Crime Data from 2017--2021. This data set for this timeframe contains 500,000+ rows of data and 27 columns. The data set contains information about the type of crime, the date and time of the crime, the location of the crime, and the address of the crime to name some of the columns.  
+The data source we chose is the Austin Crime Data from 2017-2022. This data set for this timeframe contains 500,000+ rows of data and 27 columns. The data set contains information about the type of crime, the date and time of the crime, the location of the crime, and the address of the crime to name some of the columns.  
 
 The data source
 
