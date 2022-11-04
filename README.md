@@ -41,6 +41,8 @@ Initial data source: <https://data.austintexas.gov/Public-Safety/Crime-Reports/f
 
 The database is comprised of 1 `crime` table. The `crime` table contains 27 columns and 200,000+ rows of data. The data was loaded in from the CSV file using Pandas. It was also cleaned and transformed using Pandas. The data was then loaded into the database and queried using SQLAlchemy. Once loaded into the database, it was then hosted locally on Postgres.
 
+A description of our data exploration and analysis phase of our project can be found [here](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy/Data%20Exploration.pdf).
+
 ## ✔️ Machine Learning Model
 
 Two machine learning models will be created to find patterns in Austin crime data and make predictions of future criminal activity. Each model will be instantiated, trained using a percentage of the crime dataset, evaluated for accuracy, recall, and precison and then optimized before model deployment. Some machine learning models considered include the following:
@@ -50,6 +52,7 @@ Two machine learning models will be created to find patterns in Austin crime dat
 
 We hope to use machine learning models to accurately predict if a crime would be classified as Family Violence or not.
 
+A description of our machine learning models can be found [here](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy/ML_Description.txt).
 
 ![Machine Learning Model Mockup](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy/Resources/Images/machine_learning_flowchart.png)
 <sub>Machine Learning Model Mockup</sub>
