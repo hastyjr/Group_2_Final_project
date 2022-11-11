@@ -7,11 +7,16 @@ Prior to loading in the data into our database, incidents with any null values w
 ## Description of preliminary feature engineering and preliminary feature selection, including decision-making process:
 
 We initially used sklearn’s OneHotEncoder on all categorical features ,which resulted in a data frame with approximately 7,000 columns. To reduce this number we converted features indicating a date to a datetime data type and then broke up the full dates into days, months, and years. We then used sklearn’s LabelEncoder to encode features with more than 20 unique values, and mapped the encoded values to their labels for future references. The remaining categorical variables were encoded using sklearn’s OneHotEncoder. The final data frame contains 66 features.
-The dataset was then split into the features and the target array. The feature chosen to be the target variable was the “Family Violence_Y” variable, this variable indicates whether an incident was classified as being family violence (1) or not (0). 
+
+![Encoding Categorical Variables](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Images/Encode_Categorical_Features.png)
+
+The dataset was then split into the features and the target array. The feature chosen to be the target variable was the “Family Violence_Y” variable, this variable indicates whether an incident was classified as being family violence (1) or not (0).
 
 ## Description of how data was split into training and testing sets:
 
-We split the features and target arrays into random training and testing subsets with sklearn.model_selection’s train_test_split() method. By default, the training set contains 75% of the data, and the testing set contains 25%.
+We split the features and target arrays into random training and testing subsets with sklearn.model_selection’s train_test_split() method. By default, the training set contains 75% of the data, and the testing set contains 25%. After this step the datasets were scaled before being used in the machine learning models.
+
+![Splitting the dataset](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Images/Train_test_split.png)
 
 ## Explanation of model choice, including limitations and benefits:
 
