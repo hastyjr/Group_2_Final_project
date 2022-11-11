@@ -45,14 +45,85 @@ A description of our data exploration and analysis phase of our project can be f
 
 ## ✔️ Machine Learning Model
 
-Two machine learning models will be created to find patterns in Austin crime data and make predictions of future criminal activity. Each model will be instantiated, trained using a percentage of the crime dataset, evaluated for accuracy, recall, and precison and then optimized before model deployment. Some machine learning models considered include the following:
+> :bulb: Purpose: To create a machine learning model that can predict family violence incidents in Austin and help us determine if the Covid-19 pandemic affected the rate of family violence incidents in Austin
 
-- Logistic Regression Model to determine the input variable's probability of belonging to one of two groups
-- Random Forest Model uses decisions trees and their combined output to make a classification or regression decision and can rank the performance of features
+### Phase One: Data Exploration and Mockup
 
-We hope to use machine learning models to accurately predict if a crime would be classified as Family Violence or not.
+![Machine Learning Model Mockup](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/machine_learning_flowchart.png)
 
-A description of our machine learning models can be found [here](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy/ML_Description.txt).
-
-![Machine Learning Model Mockup](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy/Resources/Images/machine_learning_flowchart.png)
 <sub>Machine Learning Model Mockup</sub>
+
+In this phase, we determined we would use three machine learning models to find patterns in crime reports of family violence incidents in Austin. Three simple models were created:
+
+- A logistic regression model
+- A random forest model
+- A deep-learning neural network
+
+In this phase, the preliminary Austin crime data was imported, cleaned, and preprocessed for the machine learning models. An overview of the data preprocessing, feature engineering, and explanation of model choices can be found [here](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Crime%20Report%20Data/ML_Description.md).
+
+In future stages, each model will be evaluated and a single model will be chosen to make predictions on the Austin crime dataset.
+
+### Phase Two: Data Analysis
+
+In this phase of the project, the three models were trained and tested using the preprocessed and split Austin crime datasets. Each model's performance was evaluated using sklearn's accuracy_score, confusion_matrix, and classification_report. The following is an overview of each model's performance:
+
+![Logistic Regression Model Evaluation](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Images/Logistic_Regression_Evaluation.png)
+
+<sub>Logistic Regression Model Evaluation</sub>
+
+- The logistic regression model had an accuracy score of 96.6%, but a precision, recall, and F1-score of 0.00 for predicting family violence incidents. This is most likely attributed to some class imbalance in the training and testing sets and will be addressed in future versions of the model.
+
+![Random Forest Classifier Evaluation](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Images/Random_Forest_Classifier_Evaluation.png)
+
+<sub>Random Forest Classifier Evaluation</sub>
+
+- The random forest classifier model had an accuracy score of 98.7%, a precision of 0.88, a recall of 0.72, and an F1-score of 0.80 for predicting family violence incidents. The random forest classifier was also used to calculate and rank feature importance, and it was found that the time that the incident occurred and the UCR Category 220 had the highest weight when determining if an indecent will be family violence or not.
+
+![Deep Learning Neural Network Evaluation](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Images/Neural_Network_Evaluation.png)
+
+<sub>Deep Learning Neural Network Evaluation</sub>
+
+- The deep learning neural network utilizes 2 hidden layers and an output layer and was trained on 100 epochs. The hidden layers use the relu activation function, the output layer uses the sigmoid function, and the loss function is binary_crossentropy and uses the Adam optimizer. The accuracy of the neural network model was 96.6% with a loss of 25.2%.
+
+### Phase Three: Model Optimization
+
+This phase of the project addresses the class imbalance discovered in the previous phase. Each model was resampled using one of five resampling techniques:
+
+- Random Oversampler
+- SMOTE
+- Random Undersampler
+- Cluster Centroids
+- SMOTEENN
+
+The performance of each resampling method on each model can be found [here](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Resampling_Evaluations.xlsx)
+
+After some deliberation, we chose to use the Random Forest Classifier as our final model because it had the most stable evaluation metrics and the highest F1-score. We also wanted to use the Random Forest Classifiers feature importances method to rank features and determine any relationship between features and the target variable.
+
+### Phase Four: Model Implementation and Results
+
+Our final machine learning model uses a Random Forest Classifier to predict incidents of family violence in Austin. The model takes in data from our pgAdmin PostgreSQL server, preprocesses and encodes the data, splits the data into features and target arrays, addresses any class imbalance with SMOTEENN, and scales the features array. The model was trained and tested on the fully preprocessed dataset and produced the following performance metrics:
+
+![Final Model Performance](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Images/Final_Model_Evaluation.png)
+
+Using the Random Forest Classifier to rank the feature importances, it was found that the UCR Category 220 (burglary) and the incident occurred time had the most weight when predicting a family violence incident.
+
+The full model code can be found [here](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Final_Project_Machine_Learning_Model.ipynb).
+
+Our group then decided to use the same dataset and model structure to determine if family violence incidents post-2020 followed the same trends demonstrated in the previous two years. For this implementation, we split the cleaned and preprocessed dataset into incidents that occurred before 2020 and after 2020, and then addressed the same class imbalance and scaled the pre-Covid datasets.
+
+![Covid Time Split](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Images/Covid_Time_Split.png)
+
+The Random Forest Classifier model was then trained and tested using the pre-Covid data and the model's performance metrics are below.
+
+![Pre-Covid Model Performance](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Images/Pre_Covid_Evaluation.png)
+
+The pre-covid model was then used to predict incidents of family violence in Austin and the model's predictions were compared with the actual post-Covid data. The performance metrics are below.
+
+![Post-Covid Model Performance](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Images/Post_Covid_Evaluation.png)
+
+The full model code can be found [here](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Covid_Machine_Learning_Model.ipynb)
+
+### Suggestions for future model development and application:
+
+- Use the Random Forest Classifier feature importances to determine which features to remove from the dataset. This could potentially improve the model's performance.
+- Use the final machine learning model with future Austin crime datasets to determine if Austin's family violence incidents follow the same trend.
