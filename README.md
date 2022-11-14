@@ -56,3 +56,11 @@ A description of our machine learning models can be found [here](https://github.
 
 ![Machine Learning Model Mockup](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy/Resources/Images/machine_learning_flowchart.png)
 <sub>Machine Learning Model Mockup</sub>
+
+## Dashboard
+
+We have broken down the dashboard by Family Violence occured by Time (day/weekday/month) and Location by Zip Code. 
+
+![viz-time](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/viz_time.png)
+
+![viz-location](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/viz_locs.png)
