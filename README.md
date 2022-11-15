@@ -1,17 +1,12 @@
 # :cop: Austin Crime Data Final Project
 
-## Contributors
+![Austin Open Source Data Portal](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/data-austintexas-org)
 
 ### Group Members / Roles
 
 - 🔵 Laura Brown, Database Manager
 - 🔺 Madison Schimmel, Machine Learning Lead
 - 🟧 Joana Hasty, Github Repository Manager
-- ❎ Jacob Sandoval, Technology Manager
-
-## ✔️ Communication Protocols
-
-Our group utilized Slack to communicate with each other and a shared Google doc to consolidate ideas and outline steps of the analysis. We met twice a week to go over our progress, discuss and resolve any questions, and plan different stages of the project.
 
 ---
 
@@ -31,6 +26,10 @@ We hope to answer the following questions with our data predictions:
 - What month of the year is most likely to have a crime occur?
 - What is the most likely location for a crime to occur?
 
+## :heavy_check_mark: Resources
+
+- :memo: [Google Slide Deck Presentation](https://docs.google.com/presentation/d/1E8wsnPU_SEtVLSL5WYRQdyRTNXB3SB2KklZ5JFDecUY/edit?usp=sharing)
+- :chart_with_upwards_trend: [Tableaux Public Storyboard and Dashboards](https://public.tableau.com/views/AustinCrimeData_16674861462650/AustinCrimeData?:language=en-US&:display_count=n&:origin=viz_share_link)
 ## :heavy_check_mark: Data Source
 
 The data source we chose is the Austin Crime Data from 2017-2022. This data set for this timeframe contains 200,000+ rows of data and 27 columns. This dataset contains a record of incidents where the Austin Police Department responded to calls for police service where a report was written. The data set contains information about the type of crime, the date and time of the crime, the location of the crime, and the address of the crime to name some of the columns.  
@@ -127,3 +126,44 @@ The full model code can be found [here](https://github.com/hastyjr/Group_2_Final
 
 - Use the Random Forest Classifier feature importances to determine which features to remove from the dataset. This could potentially improve the model's performance.
 - Use the final machine learning model with future Austin crime datasets to determine if Austin's family violence incidents follow the same trend.
+
+## :heavy_check_mark: Data Visualization
+
+### Phase One: Data Collection
+
+- The data was collected from the Austin Police Department's [Open Data Portal](https://data.austintexas.gov/Public-Safety/Austin-Police-Department-Incident-Reports-2018-Presen/9h2j-8h4i) and the [Austin Police Department's website](https://www.austintexas.gov/department/police-department).
+- The data was collected from 2017 to 2022.
+- The data was cleaned and preprocessed using Pandas and Jupyter Notebook.
+
+### Phase Two: Data Analysis
+
+- The data was analyzed using Pandas and Jupyter Notebook.
+- The data was analyzed to determine if there was a correlation between the time of day, day of week, and month that a family violence incident occurred.
+- The data was analyzed to determine if there was a correlation between the time of day, day of week, and month that an incident occurred and the location of the incident.
+- The data was analyzed between 3 different datasets by timeframe.
+By Timeframe:
+    - 2017-2019 - `Prev-COVID` Family Violence Incidents by time of day, day of week, and month.
+    - 2020 - 2022 - `Post-COVID ML modeling and sampling` Family Violence Incidents by time of day, day of week, and month, by ML model predictions and sampling.
+    - 2020-2020 - `Post-COVID Actual` Family Violence Incidents by time of day, day of week, and month.
+By Location:
+    - 2017-2019 - `Prev-COVID` Incidents by location.
+    - 2020 - 2022 - `Post-COVID ML modeling and sampling` Incidents by location, by ML model predictions and sampling.
+    - 2020-2020 - `Post-COVID Actual` Incidents by location.
+
+### Phase Three: Data Visualization
+
+- The data was visualized using Tableaux. The visualizations can be found [here](https://public.tableau.com/views/AustinCrimeData_16674861462650/AustinCrimeData?:language=en-US&:display_count=n&:origin=viz_share_link).
+
+### Phase Four: Data Presentation
+
+![pre-covid-time](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/pre-c-fv-t.png)
+
+![pre-covid-location](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/pre-c-fv-l.png)
+
+![post-covid-ml-time](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/post-c-fv-t.png)
+
+![post-covid-ml-location](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/post-c-fv-l.png)
+
+![post-covid-actual-time](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/post-c-actual-t.png)
+
+![post-covid-actual-location](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/post-c-actual-l.png)
