@@ -149,12 +149,18 @@ By Location:
 
 ### Phase Three: Data Visualization
 
-- The data was visualized using Tableaux. The visualizations can be found [here](https://public.tableau.com/views/AustinCrimeData_16674861462650/AustinCrimeData?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
+- The data was visualized using Tableaux. The visualizations can be found [here](https://public.tableau.com/views/AustinCrimeData_16674861462650/AustinCrimeData?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 ### Phase Four: Data Presentation
 
-The data was presented using Tableaux.
+![pre-covid-time](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/pre-c-fv-t.png)
 
-![viz-time](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/viz_time.png)
+![pre-covid-location](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/pre-c-fv-l.png)
 
-![viz-location](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/viz_locs.png)
+![post-covid-ml-time](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/post-c-fv-t.png)
+
+![post-covid-ml-location](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/post-c-fv-l.png)
+
+![post-covid-actual-time](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/post-c-actual-t.png)
+
+![post-covid-actual-location](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/post-c-actual-l.png)
