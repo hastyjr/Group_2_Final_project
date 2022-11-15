@@ -137,6 +137,15 @@ The full model code can be found [here](https://github.com/hastyjr/Group_2_Final
 - The data was analyzed using Pandas and Jupyter Notebook.
 - The data was analyzed to determine if there was a correlation between the time of day, day of week, and month that a family violence incident occurred.
 - The data was analyzed to determine if there was a correlation between the time of day, day of week, and month that an incident occurred and the location of the incident.
+- The data was analyzed between 3 different datasets by timeframe.
+By Timeframe:
+    - 2017-2019 - `Prev-COVID` Family Violence Incidents by time of day, day of week, and month.
+    - 2020 - 2022 - `Post-COVID ML modeling and sampling` Family Violence Incidents by time of day, day of week, and month, by ML model predictions and sampling.
+    - 2020-2020 - `Post-COVID Actual` Family Violence Incidents by time of day, day of week, and month.
+By Location:
+    - 2017-2019 - `Prev-COVID` Incidents by location.
+    - 2020 - 2022 - `Post-COVID ML modeling and sampling` Incidents by location, by ML model predictions and sampling.
+    - 2020-2020 - `Post-COVID Actual` Incidents by location.
 
 ### Phase Three: Data Visualization
 
