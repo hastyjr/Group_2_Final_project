@@ -127,3 +127,29 @@ The full model code can be found [here](https://github.com/hastyjr/Group_2_Final
 
 - Use the Random Forest Classifier feature importances to determine which features to remove from the dataset. This could potentially improve the model's performance.
 - Use the final machine learning model with future Austin crime datasets to determine if Austin's family violence incidents follow the same trend.
+
+## Data Visualization
+
+### Phase One: Data Collection
+
+- The data was collected from the Austin Police Department's [Open Data Portal](https://data.austintexas.gov/Public-Safety/Austin-Police-Department-Incident-Reports-2018-Presen/9h2j-8h4i) and the [Austin Police Department's website](https://www.austintexas.gov/department/police-department).
+- The data was collected from 2017 to 2022 and was split into 3 separate csv files.
+- The data was cleaned and preprocessed using Pandas and Jupyter Notebook.
+
+### Phase Two: Data Analysis
+
+- The data was analyzed using Pandas and Jupyter Notebook.
+- The data was analyzed to determine if there was a correlation between the time of day, day of week, and month that an incident occurred and the type of incident that occurred.
+- The data was analyzed to determine if there was a correlation between the time of day, day of week, and month that an incident occurred and the location of the incident.
+
+### Phase Three: Data Visualization
+
+- The data was visualized using Tableaux. The visualizations can be found [here](https://public.tableau.com/shared/HCZ6CNNJN?:display_count=n&:origin=viz_share_link).
+
+### Phase Four: Data Presentation
+
+The data was presented using Tableaux.
+
+![viz-time](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/viz_time.png)
+
+![viz-location](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/viz_locs.png)
