@@ -1,5 +1,6 @@
 # :cop: Austin Crime Data Final Project
-             ![Austin Open Source Data Portal](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/data-austintexas-org)
+
+![Austin Open Source Data Portal](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/data-austintexas-org)
 
 ### Group Members / Roles
 
