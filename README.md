@@ -1,6 +1,5 @@
 # :cop: Austin Crime Data Final Project
-
-## Contributors
+![Austin Open Source Data Portal](https://github.com/hastyjr/Group_2_Final_project/blob/main/Resources/Images/data-austintexas-org)
 
 ### Group Members / Roles
 
@@ -28,8 +27,8 @@ We hope to answer the following questions with our data predictions:
 
 ## :heavy_check_mark: Resources
 
-- [Google Slide Deck Presentation](https://docs.google.com/presentation/d/1E8wsnPU_SEtVLSL5WYRQdyRTNXB3SB2KklZ5JFDecUY/edit?usp=sharing)
-- [Tableaux Public Storyboard and Dashboards](https://public.tableau.com/views/AustinCrimeData_16674861462650/AustinCrimeData?:language=en-US&:display_count=n&:origin=viz_share_link)
+- :memo: [Google Slide Deck Presentation](https://docs.google.com/presentation/d/1E8wsnPU_SEtVLSL5WYRQdyRTNXB3SB2KklZ5JFDecUY/edit?usp=sharing)
+- :chart_with_upwards_trend: [Tableaux Public Storyboard and Dashboards](https://public.tableau.com/views/AustinCrimeData_16674861462650/AustinCrimeData?:language=en-US&:display_count=n&:origin=viz_share_link)
 ## :heavy_check_mark: Data Source
 
 The data source we chose is the Austin Crime Data from 2017-2022. This data set for this timeframe contains 200,000+ rows of data and 27 columns. This dataset contains a record of incidents where the Austin Police Department responded to calls for police service where a report was written. The data set contains information about the type of crime, the date and time of the crime, the location of the crime, and the address of the crime to name some of the columns.  
