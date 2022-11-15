@@ -9,10 +9,6 @@
 - 🟧 Joana Hasty, Github Repository Manager
 - ❎ Jacob Sandoval, Technology Manager
 
-## ✔️ Communication Protocols
-
-Our group utilized Slack to communicate with each other and a shared Google doc to consolidate ideas and outline steps of the analysis. We met twice a week to go over our progress, discuss and resolve any questions, and plan different stages of the project.
-
 ---
 
 # Project Overview
