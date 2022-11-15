@@ -7,7 +7,6 @@
 - 🔵 Laura Brown, Database Manager
 - 🔺 Madison Schimmel, Machine Learning Lead
 - 🟧 Joana Hasty, Github Repository Manager
-- ❎ Jacob Sandoval, Technology Manager
 
 ---
 
@@ -27,6 +26,10 @@ We hope to answer the following questions with our data predictions:
 - What month of the year is most likely to have a crime occur?
 - What is the most likely location for a crime to occur?
 
+## :heavy_check_mark: Resources
+
+- [Google Slide Deck Presentation](https://docs.google.com/presentation/d/1E8wsnPU_SEtVLSL5WYRQdyRTNXB3SB2KklZ5JFDecUY/edit?usp=sharing)
+- [Tableaux Public Storyboard and Dashboards](https://public.tableau.com/views/AustinCrimeData_16674861462650/AustinCrimeData?:language=en-US&:display_count=n&:origin=viz_share_link)
 ## :heavy_check_mark: Data Source
 
 The data source we chose is the Austin Crime Data from 2017-2022. This data set for this timeframe contains 200,000+ rows of data and 27 columns. This dataset contains a record of incidents where the Austin Police Department responded to calls for police service where a report was written. The data set contains information about the type of crime, the date and time of the crime, the location of the crime, and the address of the crime to name some of the columns.  
@@ -124,7 +127,7 @@ The full model code can be found [here](https://github.com/hastyjr/Group_2_Final
 - Use the Random Forest Classifier feature importances to determine which features to remove from the dataset. This could potentially improve the model's performance.
 - Use the final machine learning model with future Austin crime datasets to determine if Austin's family violence incidents follow the same trend.
 
-## Data Visualization
+## :heavy_check_mark: Data Visualization
 
 ### Phase One: Data Collection
 
