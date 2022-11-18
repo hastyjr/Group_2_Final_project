@@ -104,6 +104,10 @@ Our final machine learning model uses a Random Forest Classifier to predict inci
 
 ![Final Model Performance](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Images/Final_Model_Evaluation.png)
 
+- the balanced accuracy score of 88.7% indicates a high accuracy of the model overall
+- the precision of 73% measures the reliability of a positive classification
+- the recall of 78% means that 78% of all family violence incidents were correctly classified
+- the F1-score of 75% gives a harmonic mean of the precision and recall scores
 Using the Random Forest Classifier to rank the feature importances, it was found that the UCR Category 220 (burglary) and the incident occurred time had the most weight when predicting a family violence incident.
 
 The full model code can be found [here](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Final_Project_Machine_Learning_Model.ipynb).
@@ -120,11 +124,18 @@ The pre-covid model was then used to predict incidents of family violence in Aus
 
 ![Post-Covid Model Performance](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Resources/Images/Post_Covid_Evaluation.png)
 
+- the balanced accuracy score of 59.4% gives a poor performance compared to the final model above
+- the confusion matrix and recall score shows that though the model identified close to 100% of family violence incidents, the model did a very poor job of correctly predicting family violence incidents, as indicated by the precision score of 57% and the false positive incident counts
+- although the F1-score was similar to the final model above, the Covid model shows the important of the precision score; a higher precision score is prefered over a higher recall as we want our model to accurately predict if an incident is classified as family violence or not
+
 The full model code can be found [here](https://github.com/hastyjr/Group_2_Final_project/blob/mschimmy_B2/Covid_Machine_Learning_Model.ipynb)
 
 ### Suggestions for future model development and application:
 
-- Use the Random Forest Classifier feature importances to determine which features to remove from the dataset. This could potentially improve the model's performance.
+- Feature elimination - use the Random Forest Classifier feature importances to determine which features to remove from the dataset.
+- Feature engineering - create new features from the data (how long it took for an incident to be cleared, if the incident occurred on a holiday, etc.).
+- Add Austin crime data from previous years (pre-2017).
+- Fine-tune the hyperparameters of the Random Forest Classifier (number of trees, max nodes, etc.).
 - Use the final machine learning model with future Austin crime datasets to determine if Austin's family violence incidents follow the same trend.
 
 ## :heavy_check_mark: Data Visualization
